@@ -15,12 +15,12 @@
 ## 🚀 **Démonstration Live**
 
 ### 🌐 **Version Cloud (Accessible Publiquement)**
-**[🎯 Churn Prediction Dashboard](https://votre-app.streamlit.app)** *(URL après déploiement)*
+**[🎯 Churn Prediction Dashboard](https://churn-prediction-xgboost.streamlit.app/)**
 
 ### 💻 **Version Technique Complète**
 ```bash
-git clone https://github.com/votre-username/churn-prediction-ml-portfolio.git
-cd churn-prediction-ml-portfolio
+git clone https://github.com/EP-portfolio/churn-prediction.git
+cd churn-prediction
 docker-compose up
 # → http://localhost:8501 (Dashboard) + http://localhost:8000 (API)
 ```
@@ -148,14 +148,14 @@ Data Science Notebook → Pipeline ML Industrialisé → Architecture Choice
 ### **⚡ Version Cloud (Recommandée)**
 ```bash
 # Accès direct - Aucune installation requise
-→ https://votre-app.streamlit.app
+→ https://churn-prediction-xgboost.streamlit.app/
 ```
 
 ### **🐳 Version Docker (Architecture Complète)**
 ```bash
 # 1. Clone du repository
-git clone https://github.com/votre-username/churn-prediction-ml-portfolio.git
-cd churn-prediction-ml-portfolio
+git clone https://github.com/EP-portfolio/churn-prediction.git
+cd churn-prediction
 
 # 2. Lancement avec Docker
 docker-compose up
@@ -190,7 +190,7 @@ streamlit run app.py
 ## 📁 **Structure du Projet**
 
 ```
-churn-prediction-ml-portfolio/
+churn-prediction/
 ├── 📄 README.md                    ← Ce fichier
 ├── 🐳 docker-compose.yml           ← Orchestration complète
 ├── 📋 requirements.txt             ← Dépendances principales
@@ -270,14 +270,14 @@ reduction_churn = 15%     # Estimation conservative
 
 ## 📈 **Roadmap & Évolutions**
 
-### **🔄 Version 2.0 (Prévue)**
+### **🔄 Version 2.0 (WIP)**
 - [ ] **MLOps Pipeline** : CI/CD avec MLflow + DVC
 - [ ] **Monitoring Avancé** : Drift detection + alertes
 - [ ] **APIs Étendues** : Prédictions batch + webhooks
 - [ ] **Dashboard Admin** : Gestion modèles + métriques
 - [ ] **Intégration CRM** : Connecteurs Salesforce/HubSpot
 
-### **🎯 Améliorations Techniques**
+### **🎯 Améliorations Techniques (WIP)**
 - [ ] **Modèles Ensemble** : Stacking XGBoost + LightGBM
 - [ ] **Feature Store** : Centralisation features temps réel
 - [ ] **A/B Testing** : Framework expérimentation modèles
