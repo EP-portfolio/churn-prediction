@@ -271,7 +271,7 @@ def create_risk_gauge(probability: float, risk_level: str, optimal_threshold: fl
     
     # Annotation du seuil
     fig.add_annotation(
-        x=text_x + 0.03, y=text_y ,  # Position remontée encore plus (+0.08)
+        x=text_x + 0.03, y=text_y + 0.05,  # Position remontée encore plus (+0.08)
         text="<b>Seuil de churn : 35.1%</b>",  # Texte complet avec label
         
         font=dict(size=15, color="blue", family="Arial"),  # Police 13pt
