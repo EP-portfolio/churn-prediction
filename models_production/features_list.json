@@ -1,0 +1,13 @@
+[
+  "Ratio_MonthlyCharges_tenure",
+  "Contract",
+  "tenure",
+  "MonthlyCharges",
+  "tenure_segment_encoded",
+  "TotalCharges",
+  "is_new_customer",
+  "PaymentMethod",
+  "InternetService",
+  "PaperlessBilling",
+  "Ratio_TotalCharges_MonthlyCharges*tenure"
+]
